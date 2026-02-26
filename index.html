@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CG SMILE | Kamila Ciupińska-Grzyb - Dentysta Radom</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: { 
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Poppins', 'sans-serif'] 
+                    },
+                    colors: { 
+                        'brand-green': '#00261D', // Luksusowa butelkowa zieleń
+                        'brand-gold': '#B5944A',  // Prestiżowe złoto
+                        'brand-gold-light': '#D4AF37'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .font-brand-title { font-family: 'Playfair Display', serif; }
+        
+        /* Znak wodny w tle */
+        .bg-watermark-cg {
+            background-image: url('logo-zab-trans.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 50%;
+            background-blend-mode: soft-light;
+            opacity: 0.04;
+            background-color: transparent;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased pb-20 md:pb-0">
+
+<div class="bg-brand-gold text-brand-green font-medium text-sm py-2.5 w-full shadow-sm relative z-20">
+        <div class="max-w-7xl mx-auto px-5 flex justify-between items-center">
+            <div class="flex items-center gap-2"><i class="fa-solid fa-location-dot"></i> ul. Limanowskiego 73/75, Radom</div>
+            <div class="flex items-center gap-2 hidden md:flex"><i class="fa-regular fa-clock"></i> Pon - Pt: 09:00 - 18:00</div>
+        </div>
+    </div>
+
+    <nav class="bg-brand-green shadow-xl sticky top-0 z-50 border-b-2 border-brand-gold/20">
+        <div class="max-w-7xl mx-auto px-5 py-4 flex justify-between items-center relative">
+            
+            <div class="flex items-center gap-4">
+                <img src="logo-zab-trans.png" alt="Złoty sygnet CG SMILE" class="h-14 w-14 object-contain">
+                <div class="flex flex-col justify-center">
+                    <span class="text-brand-gold text-2xl md:text-3xl tracking-[0.18em] font-sans font-medium leading-none mb-1">CG SMILE</span>
+                    <span class="text-brand-gold/90 text-[0.62rem] md:text-[0.75rem] tracking-widest font-sans font-light">lek. dent. Kamila Ciupińska-Grzyb</span>
+                </div>
+            </div>
+            
+            <a href="tel:+48573060990" class="hidden md:flex items-center gap-2.5 bg-brand-gold hover:bg-brand-gold-light text-brand-green px-8 py-3 rounded-full font-bold transition shadow-lg transform hover:-translate-y-0.5">
+                <i class="fa-solid fa-phone"></i> 573 060 990
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative bg-brand-green overflow-hidden border-b-2 border-brand-gold/10">
+        <div class="absolute inset-0 bg-watermark-cg opacity-10"></div>
+        <div class="max-w-7xl mx-auto px-6 py-20 md:py-32 flex flex-col md:flex-row items-center gap-16 relative z-10 text-white">
+            <div class="md:w-1/2">
+                <span class="text-brand-gold font-bold tracking-wider uppercase text-sm mb-5 block">Twój komfort to nasz priorytet</span>
+                <h2 class="font-brand-title text-4xl md:text-6xl font-bold mb-8 leading-snug">Twoje piękno zaczyna się tutaj.</h2>
+                <p class="text-lg text-gray-300 mb-12 leading-relaxed">Zapraszamy do gabinetu CG SMILE, gdzie profesjonalizm spotyka się z dbałością o każdy uśmiech. Kamila Ciupińska-Grzyb, lekarz dentysta, zaprasza na kompleksową opiekę stomatologiczną w samym sercu Radomia.</p>
+                <div class="flex flex-col sm:flex-row gap-5">
+                    <a href="tel:+48505000000" class="bg-brand-gold hover:bg-brand-gold-light text-brand-green text-center px-10 py-5 rounded-full font-bold text-lg shadow-2xl transition transform hover:-translate-y-1">Zarezerwuj wizytę</a>
+                    <a href="#uslugi" class="bg-transparent border-2 border-brand-gold text-brand-gold hover:bg-brand-gold/10 text-center px-10 py-5 rounded-full font-bold text-lg transition transform hover:-translate-y-1">Poznaj nas</a>
+                </div>
+            </div>
+            
+            <div class="md:w-1/2 rounded-3xl overflow-hidden shadow-2xl-strong border-8 border-brand-gold/30">
+                <img src="https://images.pexels.com/photos/4483327/pexels-photo-4483327.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Lek. Dent. Kamila Ciupińska-Grzyb w gabinecie" class="w-full h-auto object-cover">
+            </div>
+        </div>
+    </header>
+
+    <section class="py-24 bg-white relative overflow-hidden">
+        <div class="max-w-5xl mx-auto px-6 relative z-10 text-gray-800">
+            <div class="text-center mb-16">
+                <h3 class="font-brand-title text-4xl font-bold mb-5 text-brand-green">Poznaj swojego lekarza dentystę</h3>
+                <div class="w-28 h-1 bg-brand-gold mx-auto rounded-full"></div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="flex-shrink-0 w-56 h-56 rounded-full overflow-hidden border-8 border-brand-gold/20 shadow-xl">
+                    <img src="zdjecie.jpeg" alt="Lek. Dent. Kamila Ciupińska-Grzyb" class="w-full h-full object-cover">
+                </div>
+                <div>
+                    <h4 class="font-brand-title text-3xl font-bold text-brand-green mb-5">Lek. Dent. Kamila Ciupińska-Grzyb</h4>
+                    <p class="text-gray-600 leading-loose mb-7">Absolwentka wielu prestiżowych kursów i kongresów stomatologicznych. Specjalizuje się w zaawansowanej stomatologii zachowawczej i estetycznej, dbając nie tylko o zdrowie, ale i piękny wygląd uśmiechu swoich pacjentów. Jej priorytetem jest leczenie bezbolesne, komfortowe i oparte na najnowocześniejszych standardach.</p>
+                    <a href="#kontakt" class="text-brand-gold font-semibold hover:text-brand-green transition flex items-center gap-2"><i class="fa-solid fa-arrow-right"></i> Skontaktuj się z nami</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="uslugi" class="py-24 bg-gray-50 border-t border-gray-200 relative overflow-hidden">
+        <div class="absolute inset-0 bg-watermark-cg"></div>
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="text-center mb-16">
+                <h3 class="font-brand-title text-4xl font-bold text-brand-green mb-5">W czym możemy Ci pomóc?</h3>
+                <div class="w-28 h-1 bg-brand-gold mx-auto rounded-full"></div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                <div class="bg-white p-9 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl hover:border-brand-gold/30 transition-all duration-300 group">
+                    <div class="w-16 h-16 bg-brand-green text-brand-gold rounded-full flex items-center justify-center text-3xl mb-7 group-hover:scale-110 transition shadow-lg">
+                        <i class="fa-solid fa-tooth"></i>
+                    </div>
+                    <h4 class="font-brand-title text-xl font-bold mb-4 text-brand-green">Stomatologia zachowawcza</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Bezbolesne leczenie ubytków, odbudowa zębów przy użyciu najwyższej jakości materiałów kompozytowych.</p>
+                </div>
+                <div class="bg-white p-9 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl hover:border-brand-gold/30 transition-all duration-300 group">
+                    <div class="w-16 h-16 bg-brand-green text-brand-gold rounded-full flex items-center justify-center text-3xl mb-7 group-hover:scale-110 transition shadow-lg">
+                        <i class="fa-solid fa-gem"></i>
+                    </div>
+                    <h4 class="font-brand-title text-xl font-bold mb-4 text-brand-green">Stomatologia estetyczna</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Odzyskaj śnieżnobiały uśmiech dzięki wybielaniu nakładkowemu i licówkom kompozytowym lub porcelanowym.</p>
+                </div>
+                <div class="bg-white p-9 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl hover:border-brand-gold/30 transition-all duration-300 group">
+                    <div class="w-16 h-16 bg-brand-green text-brand-gold rounded-full flex items-center justify-center text-3xl mb-7 group-hover:scale-110 transition shadow-lg">
+                        <i class="fa-solid fa-band-aid"></i>
+                    </div>
+                    <h4 class="font-brand-title text-xl font-bold mb-4 text-brand-green">Leczenie kanałowe</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Precyzyjne i nowoczesne leczenie pod mikroskopem, pozwalające zachować Twoje naturalne zęby.</p>
+                </div>
+                <div class="bg-white p-9 rounded-3xl shadow-lg border border-gray-100 hover:shadow-2xl hover:border-brand-gold/30 transition-all duration-300 group">
+                    <div class="w-16 h-16 bg-brand-green text-brand-gold rounded-full flex items-center justify-center text-3xl mb-7 group-hover:scale-110 transition shadow-lg">
+                        <i class="fa-solid fa-child"></i>
+                    </div>
+                    <h4 class="font-brand-title text-xl font-bold mb-4 text-brand-green">Stomatologia dziecięca</h4>
+                    <p class="text-gray-600 text-sm leading-relaxed">Przyjazne wizyty adaptacyjne dla najmłodszych. Uczymy dzieci, że dentysta nie jest straszny!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="kontakt" class="py-0 flex flex-col md:flex-row bg-white border-t-2 border-brand-gold/20">
+        <div class="md:w-1/2 min-h-[450px] flex flex-col relative">
+            <iframe src="https://maps.google.com/maps?q=Limanowskiego%2073/75,%20Radom&t=&z=16&ie=UTF8&iwloc=&output=embed" class="w-full flex-grow border-0 min-h-[400px]" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+            <div class="bg-[#001711] p-4 flex justify-center border-t border-brand-gold/20 shadow-inner">
+                <a href="https://www.google.com/maps/place/CG+Smile/@51.3873962,21.1264452,60m/data=!3m1!1e3!4m6!3m5!1s0x4718590062c51ce7:0x4e8405a248416da5!8m2!3d51.3874114!4d21.1264574!16s%2Fg%2F11lmrk9qjm?entry=ttu&g_ep=EgoyMDI2MDIyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="bg-brand-gold hover:bg-brand-gold-light text-brand-green px-8 py-3.5 rounded-full font-bold text-lg transition shadow-xl flex items-center gap-3 transform hover:-translate-y-1">
+                    <i class="fa-solid fa-location-arrow"></i> Nawiguj do gabinetu
+                </a>
+            </div>
+        </div>
+        
+        <div class="md:w-1/2 p-14 lg:p-24 flex flex-col justify-center bg-brand-green text-white">
+            <h3 class="font-brand-title text-4xl font-bold mb-10 text-brand-gold">Zapraszamy do kontaktu</h3>
+            
+            <div class="space-y-8 text-lg">
+                <div class="flex items-start gap-5">
+                    <div class="w-14 h-14 bg-brand-gold/20 rounded-full flex items-center justify-center shrink-0 border border-brand-gold/30">
+                        <i class="fa-solid fa-location-dot text-2xl text-brand-gold"></i>
+                    </div>
+                    <div>
+                        <h5 class="font-semibold text-gray-100">Gabinet CG SMILE</h5>
+                        <p class="text-gray-300">ul. Limanowskiego 73/75 lok. 10<br>26-612 Radom</p>
+                    </div>
+                </div>
+                
+                <div class="flex items-start gap-5">
+                    <div class="w-14 h-14 bg-brand-gold/20 rounded-full flex items-center justify-center shrink-0 border border-brand-gold/30">
+                        <i class="fa-solid fa-clock text-2xl text-brand-gold"></i>
+                    </div>
+                    <div>
+                        <h5 class="font-semibold text-gray-100">Godziny pracy</h5>
+                        <p class="text-gray-300">Poniedziałek - Piątek: 09:00 - 18:00</p>
+                    </div>
+                </div>
+                
+                <div class="pt-8 flex flex-col sm:flex-row items-center gap-6">
+                    <a href="tel:+48573060990" class="inline-flex items-center gap-3.5 bg-brand-gold hover:bg-brand-gold-light text-brand-green px-10 py-5 rounded-full font-bold text-xl transition shadow-xl w-full sm:w-auto justify-center transform hover:-translate-y-1">
+                        <i class="fa-solid fa-phone"></i> 573 060 990
+                    </a>
+                    
+                    <div class="flex gap-4">
+                        <a href="https://www.facebook.com/profile.php?id=61563643735221" target="_blank" title="Sprawdź nasz Facebook" class="w-12 h-12 rounded-full border border-brand-gold/50 text-brand-gold flex items-center justify-center hover:bg-brand-gold hover:text-brand-green transition text-xl">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/cg_smile_radom18:52 26.02.2026" target="_blank" title="Sprawdź nasz Instagram" class="w-12 h-12 rounded-full border border-brand-gold/50 text-brand-gold flex items-center justify-center hover:bg-brand-gold hover:text-brand-green transition text-xl">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-[#001711] text-gray-500 py-12 text-center text-sm border-t border-brand-gold/10">
+        <div class="flex flex-col items-center gap-3 mb-4">
+            <img src="logo-zab-trans.png" alt="Złoty sygnet CG SMILE" class="h-10 w-10 object-contain opacity-70">
+            <p>© 2026 CG SMILE - Lek. Dent. Kamila Ciupińska-Grzyb. Wszystkie prawa zastrzeżone.</p>
+        </div>
+    </footer>
+
+    <div class="fixed bottom-0 left-0 w-full p-4.5 bg-brand-green/95 backdrop-blur-sm shadow-[0_-5px_25px_rgba(0,0,0,0.3)] md:hidden z-50 border-t-2 border-brand-gold flex justify-between items-center text-white">
+        <div class="pl-2">
+            <p class="text-[0.65rem] font-bold text-brand-gold uppercase tracking-wider">Szybki kontakt</p>
+            <p class="font-semibold text-white text-sm">Zarezerwuj wizytę</p>
+        </div>
+        <a href="tel:+48505000000" class="bg-brand-gold hover:bg-brand-gold-light text-brand-green px-8 py-3.5 rounded-full font-bold flex items-center gap-2.5 shadow-xl transition active:scale-95">
+            <i class="fa-solid fa-phone"></i> Zadzwoń
+        </a>
+    </div>
+
+</body>
+</html>
